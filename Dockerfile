@@ -1,0 +1,8 @@
+FROM n8nio/n8n:latest
+
+# 啟用 MCP Server
+ENV N8N_PORT=5678
+ENV N8N_HOST=0.0.0.0
+ENV N8N_MCP_SERVER=true
+
+EXPOSE 5678
